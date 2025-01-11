@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página HTML</title>
+
+    <style>
+        figure{
+            border: 1px solid black;
+            width: 50%;
+        }
+
+        img{
+            width: 50%;
+        }
+
+        table{
+            width: 70%;
+            background: purple;
+        }
+        th{
+            width: 100px;
+            background: antiquewhite;
+        }
+
+        td{
+            width: 100px;
+            background: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <h3>Minha primeira página</h3>
+        <p>Autor: Marcus Vinicius Alves Pinheiro</p>
+        <hr>
+    </header>
+    
+    <main>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, debitis cupiditate necessitatibus eos veritatis veniam voluptatibus omnis ea quia voluptate facilis perspiciatis numquam amet nesciunt, enim fugiat possimus deleniti odio?
+            Veritatis deserunt similique, dignissimos aliquid laudantium quasi vitae saepe dolor consequuntur debitis hic quisquam modi amet ipsa distinctio aliquam cumque? Cumque labore ad totam voluptates dolorum vel quod nisi itaque.
+            Nam, veritatis unde earum sapiente rem animi ab consequatur laborum blanditiis quos ratione laudantium ad aut quia fugiat provident beatae est dolorum. Perferendis aliquid molestiae dignissimos, rem sint deserunt nam.
+            Id assumenda maxime ex perspiciatis perferendis eligendi, corrupti cupiditate odio ipsa, ea deserunt recusandae voluptates veniam deleniti dolore hic rem illum explicabo reprehenderit, quia aut nesciunt illo repellendus. Perspiciatis, neque?
+            Saepe, aut! Corrupti tempore nostrum officia? Inventore repellendus rerum atque error officiis! Deleniti possimus quibusdam in vel iste. Velit ipsa reprehenderit aperiam placeat quae dolorum, necessitatibus consectetur earum fugit minima!</p>
+        
+            <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure rerum vitae cupiditate praesentium! Odit quibusdam consectetur saepe rem asperiores, recusandae tenetur quod non ducimus dolore error debitis? Soluta, vitae!
+            </p>
+            <figure>
+                <img src="https://picsum.photos/id/237/200/300" alt="Filhote de cachorro com olhar expressivo e orelhas grandes">
+                <figcaption>Cachorro fofinho</figcaption>
+            </figure>
+            <p>     
+                 <em>Possimus laborum nemo quae totam doloribus eveniet explicabo consequatur aut itaque exercitationem temporibus est ipsa earum aperiam rem voluptas nam id, cum laudantium repudiandae ea blanditiis numquam! Quibusdam, minima beatae!</em>
+            </p>
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Valor (R$)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Sangue de Boi</td>
+                    <td>R$30,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Almadén</td>
+                    <td>R$ 72,00</td>
+                    <tr>
+                        <td>3</td>
+                        <td>Casal Garcia</td>
+                        <td>R$70,00</td>
+                    </tr>
+                </tr>
+            </table>
+    
+    </main>
+
+    <footer>
+        <small>Copyleft <strong>Marcus Vinicius Alves Pinheiro</strong></small>
+    </footer>
+    
+    
+</body>
+</html>
